@@ -1,4 +1,4 @@
-echo "# ETL_Pipeline_Azure_Snowflake" >> README.md
+echo "# ETL_Pipeeline_Azure_Snowflake" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
