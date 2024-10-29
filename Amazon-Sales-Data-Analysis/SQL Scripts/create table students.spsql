@@ -1,0 +1,8 @@
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,   -- Correct AUTO_INCREMENT spelling
+    firstname VARCHAR(50) NOT NULL,              -- Correct datatype for first name
+    lastname VARCHAR(50) NOT NULL,
+    birthday DATE,                               -- Correct DATE type without parentheses
+    gender VARCHAR(10),                          -- Correct VARCHAR spelling
+    startdate DATE                               -- Removed the trailing comma
+);
